@@ -28,9 +28,11 @@ body {
 
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #06373E;
     padding: 20px;
-    display: block;
     border-bottom: 2px solid #00ffff;
     border-radius: 20px 20px 0 0;
 }
@@ -38,23 +40,26 @@ header {
 .logo {
 
     flex-direction: column;
+    /* max-width: 45%; */
     color: #c6dada;
 
 }
 
 .logo h1 {
     margin: 0;
-    font-size: 3.5em;
+    font-size: 3em;
     font-weight: normal;
     letter-spacing: 8px;
     font-family: 'Audiowide';
     color: #c6dada;
     width: 40vw;
-    height: 8vh;
+    max-width: 45%;
+    /* height: 4vh; */
 
 }
 
 .logo h1 a {
+    
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
@@ -64,22 +69,22 @@ header {
     margin: 0;
     font-size: 1.5em;
     font-weight: normal;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     font-family: 'Roboto', sans-serif;
     color: #c6dada;
-    /* width: 40vw; */
-
 }
 
 /* Navegación */
 .nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0 0;
     display: flex;
-    justify-content: right;
-    gap: 20px;
-
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 5px;
+    margin: 20px 0 0;
+    margin: 0;
+    gap: 10px;
+    
 }
 
 .nav li {
@@ -91,8 +96,16 @@ header {
     text-decoration: none;
     color: inherit;
     transition: color 0.3s ease;
-
 }
+/* .nav li .dest a:hover {
+    max-width: 25%;}
+   
+.nav li .cont a:hover {
+    max-width: 25%;}
+
+.nav li .sobre_nosotros a:hover {
+    max-width: 50%;}   */
+
 
 /* Sección de inicio */
 .inicio {
