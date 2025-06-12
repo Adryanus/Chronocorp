@@ -224,7 +224,7 @@ form {
     gap: 15px;
     max-width: 600px;
     margin: 0 auto;
-    background-color: #0becec9b;
+    background-color: #0becec1c;
     border-radius: 20px;
     padding: 20px;
     color: #000;
@@ -239,7 +239,7 @@ form textarea {
     border: 1px solid #ccc;
     border-radius: 15px ;
     font-size: 1em;
-    background-color: azure;
+    background-color: hsl(180, 42%, 86%);
 }
 
 form button {
