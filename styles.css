@@ -370,7 +370,24 @@ form button:hover {
     max-width: 95vw;
     text-align: center;
 }
+#carrito {
+    border-top: 2px solid #333;
+    margin-top: 20px;
+    padding-top: 10px;
+}
 
+#carrito .total {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#carrito .carrito-item {
+    margin-bottom: 5px;
+}
+
+#carrito button {
+    margin-left: 10px;
+}
 
 @media (max-width: 1024px) {
     .logo h1 {
