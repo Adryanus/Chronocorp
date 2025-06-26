@@ -301,6 +301,12 @@ form button:hover {
     width: 100%;
     max-width: 700px;
 }
+.precios li button {
+    font-size: 1em;
+    width: fit-content;
+    height: fit-content; 
+    align-items: center;
+}
 
 .lista_horizontal {
     list-style: none;
@@ -371,10 +377,11 @@ form button:hover {
     text-align: center;
 }
 .carrito {
-    background-color: #e0f7fa;
+    background-color: #c0e8ed;
     padding: 20px;
     border-top: 2px solid #00796b;
     margin-top: 30px;
+    
 }
 
 .carrito ul {
@@ -385,11 +392,13 @@ form button:hover {
 .carrito button {
     margin-top: 10px;
     margin-right: 10px;
+    width: fit-content;
     padding: 8px 12px;
     font-size: 1em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.2em;
 }
 
 .carrito button:first-of-type {
