@@ -1,4 +1,4 @@
-   let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
+let carrito = JSON.parse(localStorage.getItem('carrito')) || [];
 let total = carrito.reduce((sum, item) => sum + item.precio, 0);
 
 document.addEventListener('DOMContentLoaded', actualizarCarrito);

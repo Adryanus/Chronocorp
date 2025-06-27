@@ -446,7 +446,7 @@ form button:hover {
 
     .edad img {
         width: 100%;
-        height: auto;
+        height:fit-content;
     }
 
     .inicio div {
@@ -533,6 +533,7 @@ form button:hover {
     .precios p {
         font-size: 1.2em;
         width: 90vw;
+        text-align: center;
     }
 }
 
