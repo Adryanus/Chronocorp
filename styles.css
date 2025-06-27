@@ -181,12 +181,12 @@
     max-width: fit-content;
     background-color: #00ffff;
     border-radius: 12px;
+    font-size: 1.5em;
 }
 
 .boton a {
     margin: 0;
     text-decoration: none;
-    font-size: 1.8em;
     font-family:"audiowide";
     color: hwb(0 0% 96% / 0.988);
     background-color: #00ffff;;
@@ -376,12 +376,23 @@ form button:hover {
     max-width: 95vw;
     text-align: center;
 }
+.precios li button {
+    font-size: 1.2em;
+    width: fit-content;
+    height: fit-content; 
+    align-items: right;
+    background-color: #00acc1;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
 .carrito {
     background-color: #c0e8ed;
     padding: 20px;
     border-top: 2px solid #00796b;
     margin-top: 30px;
-    
+    text-align: center;
 }
 
 .carrito ul {
@@ -394,7 +405,7 @@ form button:hover {
     margin-right: 10px;
     width: fit-content;
     padding: 8px 12px;
-    font-size: 1em;
+    font-size: 1.5em;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -403,7 +414,7 @@ form button:hover {
 
 .carrito button:first-of-type {
     background-color: #b71c1c;
-    color: white;
+    color: rgb(229, 229, 233);
 }
 
 .carrito button:last-of-type {
